@@ -9,6 +9,7 @@ A social app to make friends locally and meet up with like-minded people.
 ### https://gatherly-6tik.onrender.com
 
 ## Tech Stack
+
 React, TypeScript, Next.js, Supabase, Docker, GitHub Actions, Husky, ESLint, Prettier.
 
 ## Project Outline
@@ -36,7 +37,6 @@ Just two pages to start with. A profile page and a group chat page. And somewher
   **Partially complete** - The real-time, multi-user chat functionality is working. But the Group Chat dropdown filter is not linked to anything yet. So it is not filtering the main chat window according to the selected location/interest chat group yet.
 
   - A chat page for chatting in your local groups... Think of this as a "WhatsApp group chat" for each location and interest combination in the system.
-
 
 - #### Step 2 - Profile Page
 
