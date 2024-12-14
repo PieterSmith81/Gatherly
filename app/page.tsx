@@ -25,7 +25,7 @@ export default async function Index() {
               <strong>common</strong> pursuits
             </h2>
             <Image
-              src="/assets/images/flowers.png"
+              src="/assets/images/flowers.jpg"
               alt="flower handling"
               width={690}
               height={460}
