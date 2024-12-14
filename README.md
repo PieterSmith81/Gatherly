@@ -4,6 +4,13 @@
 
 A social app to make friends locally and meet up with like-minded people.
 
+## Live Demo Website
+
+### https://gatherly-6tik.onrender.com
+
+## Tech Stack
+React, TypeScript, Next.js, Supabase, Docker, GitHub Actions, Husky, ESLint, Prettier.
+
 ## Project Outline
 
 ### Problem Statement
@@ -20,15 +27,20 @@ A socially responsible social app that fosters community by helping like-minded 
 
 ## MVPs
 
-### MVP0 (Pre-Launch Landing Page)
-
-A landing page based on LearnWorlds press release guidelines (so Amazon press release). Possibly with an "are you interested" e-mail subscription form to gauge initial interest.
-
 ### MVP1
 
 Just two pages to start with. A profile page and a group chat page. And somewhere (a database) to store the profile and chat data.
 
-- #### Step 1 - Profile Page
+- #### Step 1 - Group Chat Page
+
+  **Partially complete** - The real-time, multi-user chat functionality is working. But the Group Chat dropdown filter is not linked to anything yet. So it is not filtering the main chat window according to the selected location/interest chat group yet.
+
+  - A chat page for chatting in your local groups... Think of this as a "WhatsApp group chat" for each location and interest combination in the system.
+
+
+- #### Step 2 - Profile Page
+
+  **Partially complete** - Just a static example portfolio page for now. Still needs to be be turned into an editable React JSX form.
 
   - A profile page (based on session authentication initially) containing:
     - Profile picture placeholder (use the user's initials as a profile picture to start with)
@@ -46,19 +58,17 @@ Just two pages to start with. A profile page and a group chat page. And somewher
     - https://supabase.com/docs/guides/database/connecting-to-postgres
     - https://supabase.com/docs/guides/api
 
-- #### Step 2 - Group Chat Page
-
-  - A chat page for chatting in your local groups... Think of this as a "WhatsApp group chat" for each location and interest combination in the system.
-
 - #### Step 3 - Authentication and Authorisation
+
+  **Complete**
 
   - User authentication and authorisation using a pre-built service like Supabase's Auth service (https://supabase.com/docs/guides/auth)
 
-### MVP2
+### MVP2 (Future Version)
 
 - Search functionality for chat groups based on location and interests
 
-### MVP3
+### MVP3 (Future Version)
 
 - Profile pictures
 - Profanity filtering for chat messages using, for example:
@@ -66,15 +76,15 @@ Just two pages to start with. A profile page and a group chat page. And somewher
   - https://www.npmjs.com/package/badwords-list
   - https://www.npmjs.com/package/obscenity
 
-### MVP4
+### MVP4 (Future Version)
 
 - Local meetups
 
-### MVP5
+### MVP5 (Future Version)
 
 - Direct Messages with other users
 
-## Future Features (USPs - Unique Selling Propositions)
+## Future USPs (Unique Selling Propositions)
 
 These are all still in ideation or under discussion.
 
@@ -88,10 +98,6 @@ These are all still in ideation or under discussion.
 - AI-powered chat group and direct message moderation.
 
 ## Supporting Documentation
-
-### Live Website Link
-
-- https://gatherly-6tik.onrender.com/
 
 ### Final Presentation
 
