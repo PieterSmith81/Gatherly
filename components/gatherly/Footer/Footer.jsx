@@ -55,7 +55,7 @@ async function Footer() {
           <p className={styles.footerTitle}>
             Powered by{" "}
             <a
-              href="https://github.com/SchoolOfCode/final-project-innovation-collective"
+              href="https://github.com/PieterSmith81/gatherly"
               target="_blank"
               rel="noreferrer"
               className={styles.poweredByLink}

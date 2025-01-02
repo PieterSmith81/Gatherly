@@ -106,8 +106,8 @@ These are all still in ideation or under discussion.
 
 ### GitHub Repo
 
-- GitHub Repo (this page)
-  - https://github.com/SchoolOfCode/final-project-innovation-collective
+- GitHub Repo
+  - https://github.com/PieterSmith81/gatherly
 
 ### Planning
 
